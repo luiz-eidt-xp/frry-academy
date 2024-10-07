@@ -1,0 +1,136 @@
+html {
+  background-image: url('../imgs/wppr.png');
+  font-size: x-large;
+}
+
+#t1 {
+  font-family: Arial;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4f4f4f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+   
+    
+  
+    
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.training-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.training-list a {
+    background-color: #4f4f4f;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: 470px;
+    height: 70px;
+}
+
+
+    
+
+
+section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #4f4f4f;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#timer {
+    font-size: 2em;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#menulink {  /*Esse link é para voltar ao menu*/
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#wolficon {
+    align-items: normal;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 2%;
+    text-align: center;
+    align-items: center;
+}
+
+#F1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #4f4f4f;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    height: 8%;
+}
+
